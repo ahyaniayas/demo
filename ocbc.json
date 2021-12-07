@@ -11,6 +11,6 @@
     "TaskBar_PRINT": false,
     "NavigationBar_ROTATE": false,
     "RedactionTools_FIND_AND_REDACT":  false,
-    "TaskBar_DOWNLOAD_ORIGINAL": true
+    "TaskBar_DOWNLOAD_ORIGINAL": false
   }
 }
