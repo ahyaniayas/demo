@@ -9,6 +9,7 @@
     "NavigationBar_ZOOM_AREA": false,
     "TaskBar_DOWNLOAD_ORIGINAL": false,
     "TaskBar_PRINT": false,
-    "NavigationBar_ROTATE": false
+    "NavigationBar_ROTATE": false,
+    "RedactionTools_FIND_AND_REDACT":  true
   }
 }
