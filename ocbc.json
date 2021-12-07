@@ -2,13 +2,13 @@
   "CompID": "b35569e8-8098-4576-8ad8-71ab6d0b390b",
   "UIVariant": "Simple",
   "UIConfig": {
-    "TaskBar_ANNOTATE": true,
-    "NavigationBar_FIT_ALL": true,
-    "NavigationBar_FIT_WIDTH": true,
-    "NavigationBar_ZOOM_SLIDER": true,
-    "NavigationBar_ZOOM_AREA": true,
-    "TaskBar_DOWNLOAD_ORIGINAL": true,
-    "TaskBar_PRINT": true,
-    "NavigationBar_ROTATE": true
+    "TaskBar_ANNOTATE": false,
+    "NavigationBar_FIT_ALL": false,
+    "NavigationBar_FIT_WIDTH": false,
+    "NavigationBar_ZOOM_SLIDER": false,
+    "NavigationBar_ZOOM_AREA": false,
+    "TaskBar_DOWNLOAD_ORIGINAL": false,
+    "TaskBar_PRINT": false,
+    "NavigationBar_ROTATE": false
   }
 }
