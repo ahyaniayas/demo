@@ -11,11 +11,13 @@
         "tags": [
           "View"
         ],
-        "description": "Generate URL for upload File or URL Video to Brava Viewer",
+        "summary": "Generate URL for upload File or URL Video to Brava Viewer",
         "requestBody": {
           "content": {
             "multipart/form-data": {
               "schema": {
+                "required": [
+                ],
                 "properties": {
                   "MessageGUID": {
                     "type": "string"
@@ -69,9 +71,6 @@
         "responses": {
           "200": {
             "description": "Success"
-          },
-          "404": {
-            "description": "Not Found"
           }
         }
       }
