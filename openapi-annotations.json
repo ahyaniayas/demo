@@ -1,0 +1,82 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "OCBC Gateway Viewer",
+    "description": "Documentation for OCBC Gateway Viewer",
+    "version": "1.0"
+  },
+  "paths": {
+    "/view/GenerateUrl": {
+      "post": {
+        "tags": [
+          "View"
+        ],
+        "description": "Generate URL for upload File or URL Video to Brava Viewer",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                ],
+                "properties": {
+                  "MessageGUID": {
+                    "type": "string"
+                  },
+                  "ParentMessageGUID": {
+                    "type": "string"
+                  },
+                  "TransactionMessageGUID": {
+                    "type": "string"
+                  },
+                  "UserNIK": {
+                    "type": "string"
+                  },
+                  "ModuleName": {
+                    "type": "string"
+                  },
+                  "MessageDateTime": {
+                    "type": "string"
+                  },
+                  "UIVariant": {
+                    "type": "string"
+                  },
+                  "UIConfigs": {
+                    "type": "string"
+                  },
+                  "Category": {
+                    "type": "string"
+                  },
+                  "Filename": {
+                    "type": "string"
+                  },
+                  "MimeType": {
+                    "type": "string"
+                  },
+                  "FileSize": {
+                    "type": "string"
+                  },
+                  "URL": {
+                    "type": "string"
+                  },
+                  "FileStream": {
+                    "description": "Select file to upload",
+                    "type": "file"
+                  }
+                },
+                "type": "object"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  }
+}
