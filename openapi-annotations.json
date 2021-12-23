@@ -16,8 +16,6 @@
           "content": {
             "multipart/form-data": {
               "schema": {
-                "required": [
-                ],
                 "properties": {
                   "MessageGUID": {
                     "type": "string"
